@@ -1,0 +1,31 @@
+.tabs {
+  height: 50px;
+}
+
+.tab {
+  height: 50px;
+  width: 25%;
+  margin-right: 0;
+  border: none;
+  font-family: Verdana, sans-serif;
+  float: left;
+}
+
+.tab:focus {
+  outline: none;
+}
+
+.tab:hover {
+  background-color: grey;
+  cursor: pointer;
+  color: white;
+}
+
+.tabcontent {
+  height: 250px;
+  display: none;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
